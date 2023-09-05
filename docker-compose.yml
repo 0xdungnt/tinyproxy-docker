@@ -1,7 +1,7 @@
 version: '2'
 services:
   tinyproxy:
-    image: 4km3/tinyproxy:latest
+    build: .
     ports:
       - "3128:3128"
     volumes:
